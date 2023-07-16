@@ -1,0 +1,78 @@
+@import url("navbarSheet.css");
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+}
+
+#navHome{
+    border: 3px solid white;
+    border-style: none none solid none;
+}
+
+.quote1 {
+    color: white;
+    text-align: center;
+    font-size: 320%;
+    text-transform: uppercase;
+}
+
+.quote1 div{
+    margin-left: 15%;
+    text-align: left;
+}
+
+.quote1 span{
+    color: aqua;
+}
+
+.signupbutton a{
+    text-decoration: none;
+}
+
+.signupbutton {
+    position: relative;
+    top: ;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40%;
+    padding: 2% 4% 2% 4%;
+    border: 0pt;
+    background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+}
+
+.signupbutton:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    box-shadow: 0 0 20px #eee;
+}
+
+.container {
+    margin: 2% 2% 0% 0%;
+    padding: 20px 20px 20px 50px;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    width: fit-content;
+    background-color: rgba(60, 62, 62, 0.43);
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    border-top: 1px dotted rgb(12, 174, 180);
+}
+
+hr {
+    border-top: 1px dotted rgb(12, 174, 180);
+}
+
+.container h2 {
+    color: rgb(12, 174, 180);
+    font-size: x-large;
+}

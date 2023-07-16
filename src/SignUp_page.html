@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FIT PALACE - SignUp</title>
+
+        <script src="SignUpScript.js"></script>
+    </head>
+
+    <link rel="stylesheet" href="SignUpStyleSheet.css">
+
+    <body>
+        <header class="header">
+            <img src="FIT-PALACE.png" alt="FIT PALACE" height="90px">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Home_page.html" id="navHome"> Home </a></li>
+                    <li><a href="About-us-page.html" id="navAbout"> About </a></li>
+                    <li><a href="Plan_page.html" id="navPlans"> Plans </a></li>
+                    <li><a href="Contact_Page.html" id="navContact"> Contact </a></li>
+                    <li><a href="SignIn_page.html" id="navSignIn"> Sign In </a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="SignUpHead">
+            <h1>Sign Up | Registration</h1>
+        </div>
+        <div>
+            <form action="submittedForm.html" name="form" onsubmit="return validate();" method="post">
+                <p> Tell us about yourself! </p>
+                <hr>
+                <fieldset id="fieldsetInfo">
+                    Contact Information
+                    <hr><br>
+                    <input type="text" name="fname" placeholder="First Name" size="50px">
+                    <div class="error" id="fname_err" ></div>
+                    <br>
+                    <input type="text" name="lname" placeholder="Last Name" size="50px">
+                    <div class="error" id="lname_err" ></div>
+                    <br>
+                    <input type="email" name="email" placeholder="Email" size="50px">
+                    <div class="error" id="email_err" ></div>
+                    <br>
+                    <input type="text" name="phone" placeholder="Mobile Phone" size="50px">
+                    <div class="error" id="phone_err" ></div>
+                    <br>
+                    <input type="text" name="Ophone" placeholder="Secondary Phone" size="50px">
+                    <br><br>
+                    <input type="text" name="address" placeholder="Address" size="50px">
+                    <div class="error" id="address_err" ></div>
+                    <br>
+                    <select name="gender" id="gender" autocomplete="off">
+                        <option value=""> - Please Select Gender -</option>
+                        <option value="male"> Male </option>
+                        <option value="female"> Female </option>
+                        <option value="other"> Other </option>
+                    </select>
+                    <div class="error" id="gender_err" ></div>
+                    <br>
+                    <textarea name="feedback" id="" cols="47" rows="3"
+                        placeholder="Wanna share anything about you ?"></textarea>
+                    <br><br>
+                </fieldset>
+                <br>
+                <fieldset id="fieldsetInfo">
+                    Create Account Id
+                    <hr>
+                    <input type="text" name="username" placeholder="Username" size="50px">
+                    <div class="error" id="username_err" ></div>
+                    <br>
+                    <input type="password" name="password" placeholder="Password" size="50px" autocomplete="off">
+                    <div class="error" id="pass_err" ></div>
+                    <br>
+                    <input type="password" name="C_password" placeholder="Confirm password" size="50px" autocomplete="off">
+                    <div class="error" id="c_pass_err" ></div>
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset id="fieldsetInfo">
+                    Choose your plan
+                    <hr><br>
+                    <div id="promoContainer">
+                        <input type="text" id="promo" name="promo" placeholder="Promo code" size="30px" autocomplete="off">
+                        <div id="promoApply" onclick="return funPromo();"> APPLY </div>
+                    </div>
+                    <div id="promoMsg" name="promo_msg"></div>
+                    <select name="plan" id="plans" autocomplete="off" required>
+                        <option value=""> - Please Choose your plan -</option>
+                        <optgroup label=" Signature Month Plan "></optgroup>
+                        <option value="s12"> SIGNATURE 12 </option>
+                        <option value="s1"> SIGNATURE month-to-month </option>
+                        <optgroup label=" Membership Level Plan "></optgroup>
+                        <option value="basic"> BASIC Plan </option>
+                        <option value="premium"> PREMIUM PLUS Plan </option>
+                    </select>
+                    <br>
+                    <a target="_blank" href="Plan_page.html"> VIEW PLANS </a>
+                    <br>
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset id="fieldsetCheckbox">
+                    <br>
+                    <input type="checkbox" name="tac" value="1" required>
+                    By clicking here, I state that I have read and understood the terms and conditions.
+                    <br><br>
+                    <input type="checkbox" name="promotion" value="2">
+                    Yes, I want to receive offers or promotions from FIT PALACE CLUB by email, text message, or phone.
+                    <br><br>
+                    <br>
+                </fieldset>
+                <br>
+                <hr>
+                <button type="submit" name="submit" id="submit"> Payment and Submit </button>
+                <hr>
+                <br>
+            </form>
+            <br><br>
+        </div>
+        <footer id="bottom">
+            <article>&copy; 2005 FitPalaceClub - All Rights Reserved</article>
+        </footer>
+    </body>
+
+</html>
