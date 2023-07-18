@@ -49,10 +49,10 @@ body {
 }
 
 .signupbutton:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     box-shadow: 0 0 20px #eee;
-}*/
+} */
 
 .signupbutton {
     background-color: rgba(60, 62, 62, 0.43);
