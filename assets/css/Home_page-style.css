@@ -28,7 +28,7 @@ body {
 .signupbutton a{
     text-decoration: none;
 }
-
+/*
 .signupbutton {
     position: relative;
     top: 40%;
@@ -52,8 +52,21 @@ body {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     box-shadow: 0 0 20px #eee;
+}*/
+
+.signupbutton {
+    background-color: rgba(60, 62, 62, 0.43);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 40%;
+    padding: 2% 4% 2% 4%;
+    border: 0pt;
 }
 
+.signupbutton:hover {
+    font-weight: bolder;
+    box-shadow: 0 0 30px rgb(1, 255, 255);
+}
 .container {
     margin: 2% 2% 0% 0%;
     padding: 20px 20px 20px 50px;
