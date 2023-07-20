@@ -8,14 +8,13 @@ body {
     border: 3px solid white;
     border-style: none none solid none;
 }
-
+/*
 .AboutPage {
     background-image: url("aboutUsbackgroundimg.jpg");
     background-repeat: no-repeat;
     width: initial;
     height: fit-content;
-
-}
+}*/
 
 .AboutPage h1 {
     padding: 100px;
