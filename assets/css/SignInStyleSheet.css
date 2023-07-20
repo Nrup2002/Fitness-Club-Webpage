@@ -5,6 +5,9 @@
     border-style: none none solid none;
     background-color: rgba(0, 0, 0, 0.411);
 }
+#navHome{
+    border-style: none;
+}
 
 .quote1 span{
     color: white;
