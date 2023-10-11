@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo-nav.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/signUpStyle.css">
+
+    <title>Sign Up FitPALACE</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav__logo">
+                <img src="img/logo-nav.png" alt="logo"> FitPALACE
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link active-link" style="color: black;">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.htm/#program" class="nav__link">Program</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About Us</a>
+                    </li>
+
+                    <div class="nav__link">
+                        <a href="../index.html#pricing" class="button nav__button">
+                            View Plans
+                        </a>
+                    </div>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--_ MAIN _-->
+    <main class="main">
+        <!--_ HOME _-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h2 class="home__subtitle">Start your fitness </h2>
+                    <h1 class="home__title">journey today.</h1>
+                    <p class="home__description">
+                        FitPalace Gym: Your journey to a healthier, happier you starts here. We offer a variety of
+                        state-of-the-art equipment and classes, as well as a supportive community of fitness
+                        enthusiasts.
+                    </p>
+                    <a href="#program" class="button button__flex">
+                        Get Started <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <div class="home__images">
+                    <img src="img/signUp-img.png" alt="home image" class="home__img">
+
+                    <div class="home__triangle home__triangle-3"></div>
+                    <div class="home__triangle home__triangle-2"></div>
+                    <div class="home__triangle home__triangle-1"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--_ PROGRAM _-->
+        <section class="program section" id="program">
+            <div class="container">
+                <div class="section__data">
+                    <h2 class="section__subtitle"> Join the Community </h2>
+                    <div class="program__container grid"
+                        style="display: flex; justify-content: center; align-items: center;">
+                        <article class="sign">
+                            <section class="inContainer">
+                                <header>Registration Form</header>
+                                <form action="#" class="form">
+                                    <div class="input-box">
+                                        <label>Full Name</label>
+                                        <input type="text" placeholder="Enter full name" required />
+                                    </div>
+                                    <div class="input-box">
+                                        <label>Email Address</label>
+                                        <input type="text" placeholder="Enter email address" required />
+                                    </div>
+                                    <div class="column">
+                                        <div class="input-box">
+                                            <label>Phone Number</label>
+                                            <input type="number" placeholder="Enter phone number" required />
+                                        </div>
+                                        <div class="input-box">
+                                            <label>Birth Date</label>
+                                            <input type="date" placeholder="Enter birth date" required />
+                                        </div>
+                                    </div>
+                                    <div class="gender-box">
+                                        <h3>Gender</h3>
+                                        <div class="gender-option">
+                                            <div class="gender">
+                                                <input type="radio" id="check-male" name="gender" checked />
+                                                <label for="check-male">male</label>
+                                            </div>
+                                            <div class="gender">
+                                                <input type="radio" id="check-female" name="gender" />
+                                                <label for="check-female">Female</label>
+                                            </div>
+                                            <div class="gender">
+                                                <input type="radio" id="check-other" name="gender" />
+                                                <label for="check-other">prefer not to say</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-box address">
+                                        <label>Create Account ID</label>
+                                        <input type="text" placeholder="Enter username" required />
+                                        <input type="text" placeholder="Enter password" required />
+                                        <input type="text" placeholder="Confirm password" required />
+                                        <br><br>
+                                        <label>Choose your Plan</label>
+                                        <div class="select-box">
+                                            <select>
+                                                <option hidden>Plan</option>
+                                                <option>Basic Package</option>
+                                                <option>Premium Package</option>
+                                                <option>Diamond Package</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="mark">
+                                        <input type="checkbox" name="terms" required>
+                                        By clicking here, I state that I have read and understood the terms and conditions.
+                                        <br><br>
+                                        <input type="checkbox" name="promotion">
+                                        Yes, I want to receive offers or promotions from FIT PALACE CLUB by email, text message, or phone.
+                                    </div>
+                                    <button>Make Payment</button>
+                                </form>
+                            </section>
+                        </article>
+                    </div>
+                    <div class="section__titles">
+                        <h1 class="section__title-border">Decide. Commit. </h1>
+                        <h1 class="section__title">Succeed.</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--_ FOOTER _-->
+    <footer class="footer section" id="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="img/logo-nav.png" alt=""> Stay in connected with us.
+                </a>
+                <p class="footer__description">
+                    Subscribe for club <br> updates below.
+                </p>
+
+                <form action="" class="footer__form" id="contact-form">
+                    <input type="email" name="user_email" placeholder="Your Email" class="footer__input"
+                        id="contact-user">
+                    <button type="submit" class="button">
+                        Subscribe
+                    </button>
+                </form>
+
+                <p class="footer__message" id="contact-message"></p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        SERVICES
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#program" class="footer__link">Flex Muscle</a>
+                        </li>
+                        <li>
+                            <a href="#program" class="footer__link">Cardio Exercise</a>
+                        </li>
+                        <li>
+                            <a href="#program" class="footer__link">Basic Yoga</a>
+                        </li>
+                        <li>
+                            <a href="#program" class="footer__link">Weight Lifting</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        PRICING
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#pricing" class="footer__link">Basic</a>
+                        </li>
+                        <li>
+                            <a href="#pricing" class="footer__link">Premium</a>
+                        </li>
+                        <li>
+                            <a href="#pricing" class="footer__link">Diamond</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Fit Palace Club
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Partners</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="footer__group">
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Copyright FitPalace. All rights reserved. Created by Nrupraj Bhendarkar.
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- SCROLLREVEAL -->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!-- EMAIL JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
