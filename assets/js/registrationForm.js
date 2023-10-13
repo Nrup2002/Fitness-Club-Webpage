@@ -8,16 +8,19 @@ document.getElementById("registrationForm").addEventListener("submit", function 
 
   // Close the pop-up after 5 seconds (adjust the time as needed)
   setTimeout(function () {
-      closePopup();
+    closePopupAndSubmit();
   }, 5000); // 5000 milliseconds (5 seconds)
 });
 
 // JavaScript to close the pop-up when the close button is clicked
 document.getElementById("closeButton").addEventListener("click", function () {
-  closePopup();
+  closePopupAndSubmit();
 });
 
-function closePopup() {
+function closePopupAndSubmit() {
   document.getElementById("overlay").classList.add("hidden");
   document.getElementById("popup").classList.add("hidden");
+
+  // Submit the form after closing the pop-up
+  document.getElementById("registrationForm").submit();
 }
