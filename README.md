@@ -1,4 +1,6 @@
 ## Fitness-Club-Webpage
+[Visit Now](https://nrup2002.github.io/Fitness-Club-Webpage/index.html)
+
 **Responsive Gym Website**
 
 A mobile-friendly gym website with a sleek and modern design that is optimized for all devices. The site features animations when scrolling, a BMI calculator, a contact form, and is compatible with all major browsers.
